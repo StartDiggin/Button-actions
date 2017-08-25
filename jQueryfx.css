@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+.container{
+    height: 1000px;
+    width: 1000x;
+    border: solid black 2px;
+}
+.header{
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+}
+.click{
+    height: 100px;
+    border: solid green 1px;
+}
+#click{
+    margin: 50px 0px 0px 15px;
+}
+.hide_show{
+    height: 100px;
+    border: solid red 1px;
+}
+#show{
+    margin: 50px 0px 0px 15px;
+}
+
+#hide{
+    margin: 50px 0px 0px 15px;
+}
+
+.toggle{
+    height: 100px;
+    border: solid blue 1px;
+}
+#toggle{
+    margin: 50px 0px 0px 15px;
+}
+.slide_Up_Down{
+    height: 100px;
+    border: solid orange 1px;
+}
+#slideup{
+    margin: 50px 0px 0px 15px;
+}
+#slidedown{
+    margin: 50px 0px 0px 15px;
+}
+.slide_toggle{
+    height: 100px;
+    border: solid purple 1px;
+}
+#slide_toggle{
+    margin: 50px 0px 0px 15px;
+}
+.fade_In-Out{
+    height: 100px;
+    border: solid red 1px;
+}
+#in{
+
+    margin: 50px 0px 0px 15px;
+}
+#out{
+
+    margin: 50px 0px 0px 15px;
+
+}
+p{
+    margin: 35px 0px 0px 500px;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 20px;
+}
+.selected{
+    color: .blue;
+}
+.highlight{
+    background: yellow;
+}
+.intro{
+    font-size: 150%;
+    color: red;
+}
+p::before{
+        content: "Read me -";
+}
+p::after{
+    content: "  Finish it -";
+}
+img{
+    vertical-align: top;
+}
+#val{
+    background-color: red;
+}
+#val{
+    height: 20px;
+    width: 100px;
+    border: solid black 1px;
+    background-color: yellow;
+}
+.data{
+    height: 100px;
+    border: solid black 2px;
+    margin-top: 75px;
+}
+.Eight_buttons{
+    height: 100px;
+    border: solid orange 2px;
+    background-color: yellow;
+    margin-top: 100px;
+}

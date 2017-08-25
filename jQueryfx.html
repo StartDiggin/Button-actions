@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery Functions</title>
+        <link rel="stylesheet" href="jQueryfx.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                // alert('You are now working with jQuery!');
+
+                console.log('You are know working with jQuery!');
+
+                $('#click').click(function(){
+                        alert('You are now leaving the page!');
+                })
+                $('#click').click(function(){
+                    console.log('You are now leaving the page!');
+                })
+
+                //should effect the paragraphs below
+                $('p').hide();
+
+                // $('#hide').click(function(){
+                //     $('p').hide();
+                // })
+                //
+                // $('#show').click(function(){
+                //     $('p').show();
+                // })
+
+                $('#toggle').click(function(){
+                    $('p').toggle();
+                })
+
+                // $('#slideup').click(function(){
+                //     $('p').slideUp();
+                // })
+                //
+                // $('#slidedown').click(function(){
+                //     $('p').slideDown();
+                // })
+                //
+                // $('#slide_toggle').click(function(){
+                //     $('p').slideToggle();
+                // })
+                //
+                // $('#in').click(function(){
+                //     $('p').fadeIn();
+                // })
+                //
+                // $('#out').click(function(){
+                //     $('p').fadeOut();
+                // })
+
+                $('#addclass').click(function(){
+                    $('p:last').addClass("intro");
+                })
+
+                $('#before').click(function(){
+                    $('p').before("Good Morning!")
+                })
+
+                $('#after').click(function(){
+                    $('p').after("Hello World!")
+                })
+
+                $('#html').click(function(){
+                    $('p').html("Hello <b>World</b>!");
+                })
+
+                $('#append').click(function(){
+                    $('p').append("<b>Appended Text</b>")
+                })
+
+
+
+                $('#val').click(function(){
+                    $("input:text").val("Johnny G.");
+                })
+
+                $('#text').click(function(){
+                    $('p').text("This text has changed!")
+                })
+
+                $('#data1').click(function(){
+                    $('.data').data("greeting", "Hello World!");
+                });
+
+                $('#data2').click(function(){
+                    alert($('.data1').data("greeting"));
+                });
+
+
+
+            });
+        </script>
+
+    </head>
+    <body>
+        <div class="container">
+            <h2>Greetings</h2>
+            <div class="inner">Hello</div>
+            <div class="inner">Goodbye</div>
+            <a id="myLink"href="http://www.google.com">Go to Google!!</a>
+             <div class="header">
+                <h1>My jQuery Basics Assignment!!</h1>
+            </div>
+            <div class="click">
+                <button id="click">Click Me!</button>
+                <p>This is a paragraph!!</p>
+            </div>
+
+            <div class="hide_show">
+                <button id="hide">Hide Me!</button>
+                <button id="show">Show Me!</button>
+                <p>This is a paragraph!!</p>
+            </div>
+
+            <div class="toggle">
+                <button id="toggle">Toggle Me!</button>
+                <p>This is a paragraph!!</p>
+            </div>
+
+            <div class="slide_Up_Down">
+                <button id="slideup">Up Me!</button>
+                <button id="slidedown">Down Me!</button>
+                <p>This is a paragraph!!</p>
+            </div>
+
+            <div class="slide_toggle">
+                <button id="slide_toggle">Slide_Toggle Me!</button>
+                <p>This is a paragraph!!</p>
+            </div>
+
+            <div class="fade_In-Out">
+                <button id="in">In Me!</button>
+                <button id="out">Out Me!</button>
+                <p class="myClass">This is a paragraph!!</p>
+                <img src="images/watch_now.png" alt="try again">
+            </div>
+            <!-- <h4>Name: <input type="text" name="user"></h4> -->
+
+
+            <div class="Eight_buttons">
+                <button id="addclass">.addclass does this</button>
+                <button id="before">.before does this</button>
+                <button id="after">.after does this</button>
+                <button id="append">.append does this</button>
+                <button id="html">.html does this</button>
+                <button id="attr">.attr does this</button>
+                <button id="val">.val does this</button>
+                <h4>Name: <input type="text" name="user"></h4>
+                <button id="text">.text does this</button>
+            </div>
+            <div class="data">
+                <button id="data1">Attach data</button><br>
+                <button id="data2">Display</button>
+                <h3>The values stored were
+                    <span></span>
+                    and
+                    <span></span>
+                 </h3>
+            </div>
+        </div>
+    </body>
+</html>

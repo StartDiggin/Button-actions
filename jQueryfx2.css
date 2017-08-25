@@ -1,0 +1,215 @@
+*{
+    border: 0px;
+    margin: 0px;
+}
+.container{
+    height: 1100px;
+    width: 1030px;
+    border: solid black 2px;
+}
+.click{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid red 1px;
+    vertical-align: top;
+    text-align: center;
+}
+#click{
+    margin: 15px 0px 15px 0px;
+}
+.hide{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid red 1px;
+    text-align: center;
+}
+#hide{
+    margin: 15px 0px 15px 0px;
+}
+#show{
+    margin-top: 15px;
+}
+.toggle{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid red 1px;
+    vertical-align: top;
+    text-align: center;
+}
+#toggle{
+    margin: 15px 0px 15px 0px;
+}
+.slideD_U{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid red 1px;
+    vertical-align: top;
+    text-align: center;
+}
+#slideUp{
+    margin: 15px 0px 15px 0px;
+}
+#slideDown{
+    margin: 15px 0px 15px 0px;
+}
+.toggle_slide{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid blue 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#slide_Toggle{
+    margin: 15px 0px 15px 0px;
+}
+.fadeI_O{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid blue 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#fade_In{
+    margin: 15px 0px 15px 0px;
+}
+#fade_Out{
+    margin: 15px 0px 15px 0px;
+}
+.add_class{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid blue 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#addClass{
+    margin: 15px 0px 15px 0px;
+}
+.intro{
+    font-size: 125%;
+    color: red;
+}
+.before{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid blue 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#before{
+    margin: 15px 0px 15px 0px;
+}
+.bigbox{
+    width: 764px;
+    height: 350px;
+    display: inline-block;
+    /*border: solid black 1px;*/
+}
+.after{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid green 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#after{
+    margin: 15px 0px 15px 0px;
+}
+.append{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid green 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#append{
+    margin: 15px 0px 15px 0px;
+}
+.html{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid green 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#html{
+    margin: 15px 0px 15px 0px;
+}
+.attr{
+    height: 319px;
+    width: 250px;
+    display: inline-block;
+    border: solid green 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#attr{
+    margin: 15px 0px 15px 0px;
+}
+#img1{
+    margin-top: 15px;
+}
+.val{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid brown 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+h4{
+    /*height: 16px;*/
+    background-color: lightgrey;
+    font-size: 18px;
+}
+
+#val{
+    margin: 15px 0px 15px 0px;
+}
+.text{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid brown 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#text{
+    margin: 15px 0px 15px 0px;
+}
+.data{
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    border: solid brown 1px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 15px;
+}
+#data1{
+    margin: 15px 0px 15px 0px;
+}
+#data2{
+    margin: 15px 0px 15px 0px;
+}

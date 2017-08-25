@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery Functions</title>
+        <link rel="stylesheet" href="jQueryfx2.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                console.log('You are now work with jQuery!');
+
+                $('#click').click(function(){
+                    alert('You are working with jQuery');
+                })
+
+                // //these are effect methods
+                $('#hide').click(function(){
+                    $('.para2').hide();
+                })
+                $('#show').click(function(){
+                    $('.para2').show();
+                })
+                $('#toggle').click(function(){
+                    $('.para3').toggle();
+                })
+                $('#slideUp').click(function(){
+                    $('.para4').slideUp();
+                })
+                $('#slideDown').click(function(){
+                    $('.para4').slideDown();
+                })
+                $('#slide_Toggle').click(function(){
+                    $('.para5').slideToggle();
+                })
+                $('#fade_In').click(function(){
+                    $('.para6').fadeIn();
+                })
+                $('#fade_Out').click(function(){
+                    $('.para6').fadeOut();
+                })
+                $('#addClass').click(function(){
+                    $('.para7').addClass("intro");
+                })
+                $('#before').click(function(){
+                    $('.para8').before("Good Morning!")
+                })
+                $('#after').click(function(){
+                    $('.para9').after("Hello World!")
+                })
+                $('#append').click(function(){
+                    $('.para10').append("Hello World!")
+                })
+                $('#html').click(function(){
+                    $('.para11').html("Hello <b>World</b>!");
+                })
+                $('#attr').click(function(){
+                    $('#img1').attr("height", "300");
+                })
+                $("#val").click(function(){
+                    $("input:text").val("Johnny Gonzales");
+                })
+                $('#text').click(function(){
+                    $('.para14').text("This text has changed!")
+                })
+                $("#data1").click(function(){
+                    $(".data").data("greeting", "Hello World!");
+                });
+                $("#data2").click(function(){
+                    alert($(".data").data("greeting"));
+                });
+            });
+
+
+
+
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="click">
+                <button id="click">Click Me!</button>
+                <p class="para1">The click attr perfoms a fx when clicked!</p>
+            </div>
+            <div class="hide">
+                <button id="hide">Hide Me!</button>
+                <p class="para2">The hide  and show attrs are opposites!</p>
+                <button id="show">Show me!</button>
+            </div>
+            <div class="toggle">
+                <button id="toggle">Toggle Me!</button>
+                <p class="para3">Toggle combines the hide and show fx!</p>
+            </div>
+            <div class="slideD_U">
+                <button id="slideUp">Slide UP!</button>
+                <p class="para4">The slide down and up fx's do exactly that, they
+                slide items up and disapear then down to appear!</p>
+                <button id="slideDown">Slide Down!</button>
+            </div>
+            <div class="toggle_slide">
+                <button id="slide_Toggle">Slide Toggle!</button>
+                <p class="para5">This combines the slideUp and slideDown fx into  one button!</p>
+            </div>
+            <div class="fadeI_O">
+                <button id="fade_Out">Fade Me Out 1st!</button>
+                <p class="para6">These buttons do just that, fade content in and out!</p>
+                <button id="fade_In">Then, Fade Me In!</button>
+            </div>
+            <div class="add_class">
+                <button id="addClass">.addClass</button>
+                <p class="para7">The addClass attr is trick and you might have to look at the code
+                to understand it!</p>
+            </div>
+            <div class="before">
+                <button id="before">before</button>
+                <p class="para8">The before attr just adds text to the front of an item!</p>
+            </div>
+            <div class="bigbox">
+                <div class="after">
+                    <button id="after">after</button>
+                    <p class="para9">The after attr adds text after an item!</p>
+                </div>
+                <div class="append">
+                    <button id="append">Append Me!</button>
+                        <p class="para10">Lets see what this button does!</p>
+                </div>
+                <div class="html">
+                    <button id="html">HTML anyone!</button>
+                        <p class="para11">Lets see what this button does!</p>
+                </div>
+                <div class="val">
+                    <button id="val">val attribute!</button>
+                        <p class="para13">Lets see what this button does!</p>
+                        <h4>Name: <input type="text" name="user"></h4>
+                </div>
+                <div class="text">
+                    <button id="text">Add some Text!</button>
+                        <p class="para14">Lets see what this button does!</p>
+                </div>
+                <div class="data">
+                    <button id="data1">click this button 1st!</button>
+                        <p class="para15">Lets see what this button does!</p>
+                    <button id="data2">click this button 2nd!</button>
+                </div>
+            </div>
+            <div class="attr">
+                <button id="attr">attr does?</button>
+                <p class="para12">Lets see what this button does!</p>
+                <img id="img1" src="images/portfolio4.png" alt="portfolio.png">
+            </div>
+        </div>
+
+    </body>
+</html>
